@@ -5,7 +5,7 @@ SKY LAB student branch SKYSIS Embedded System Team's 30 day of Arduino Challange
 Project List:
 
  - [x] Trafik Lambası/ Traffic Lamp
- - [ ] Ev sıcaklığını kontrol eden sistem/ Room Temperature Control
+ - [x] Ev sıcaklığını kontrol eden sistem/ Room Temperature Control
  - [ ] Karanlıkta ışıkları otonom açan sistem/ Night Lighter
  - [ ] Asansör LED/Elevator LED: en az 5 adet led ve her lede bağlı butondan oluşur. Bir butona basıldığında yanan ışık bulunduğu konumdan butonla eşleşen ledin konumuna   gelir.
  - [ ] Ultrasonik İnsan Sayacı/ Ultrasonic Person Counter
