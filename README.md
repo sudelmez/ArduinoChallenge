@@ -11,5 +11,5 @@ Project List:
  - [x] Ultrasonik İnsan Sayacı/ Ultrasonic Person Counter
  - [x] Şifreli kasa sistemi/ Safe system with keypad
  - [ ] Kombinasyon kilidi/Combination Lock
- - [ ] Hesap Makinası/ Calculator
+ - [x] Hesap Makinası/ Calculator
  - [ ] Servo Motor ile Güneş Takibi/ Solar Detechtor
