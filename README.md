@@ -12,4 +12,4 @@ Project List:
  - [x] Şifreli kasa sistemi/ Safe system with keypad
  - [x] Kombinasyon kilidi/Combination Lock
  - [x] Hesap Makinası/ Calculator
- - [ ] Servo Motor ile Güneş Takibi/ Solar Detechtor
+ - [x] Servo Motor ile Güneş Takibi/ Solar Detechtor
