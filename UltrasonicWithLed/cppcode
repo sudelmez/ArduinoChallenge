@@ -1,0 +1,56 @@
+#include <LiquidCrystal.h>
+#define red 6
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+int Pirpin=8;
+int human;
+int led;
+
+void setup()
+{
+  pinMode(red,OUTPUT);
+  pinMode(Pirpin,INPUT);
+  lcd.begin(16, 2); 
+}
+
+void leds(){
+  digitalWrite(red,HIGH);
+  Serial.println(1);
+  delay(100);
+  digitalWrite(red,LOW);
+  Serial.println(0);
+  delay(200);
+}
+
+void HumanExists(){
+   lcd.clear();
+
+   lcd.setCursor(0, 0);  
+   lcd.print("HUMAN MOVING");
+   lcd.setCursor(0, 1);
+   
+  lcd.setCursor(0,1);
+  
+  led=Serial.read();
+  lcd.print(led);
+  delay(200);
+}
+
+
+void loop()
+{
+  leds();
+  human= digitalRead(Pirpin);
+ 
+  if (human==1){
+    HumanExists();
+  }
+  
+  else {
+    lcd.clear();
+    lcd.setCursor(0, 0);  
+    lcd.print("no human");
+      delay(200);
+
+  }
+}
